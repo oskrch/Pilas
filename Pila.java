@@ -17,7 +17,7 @@ public class Pila {
     }
     
     /**
-     * Constructor que recibe como parametro el tamaÒo de la pila 
+     * Constructor que recibe como parametro el tama√±o de la pila 
      */
         
     public Pila (int x){
@@ -49,7 +49,7 @@ public class Pila {
     }
     
     /**
-     * MÈtodo que nos ingresa un dato en la Pila 
+     * M√©todo que nos ingresa un dato en la Pila 
      */
     
     public void push() {
@@ -59,11 +59,11 @@ public class Pila {
 	    pila[tope]=Integer.parseInt(JOptionPane.showInputDialog("Ingrese un valor para ingresar a la pila: "));
 	}
         else 
-	    System.out.println("No se puede ingresar datos a la Pila, est· llena");
+	    System.out.println("No se puede ingresar datos a la Pila, est√° llena");
     }
     
     /**
-     * MÈtodo que recibe como parametro el numero¥que se va ingresar a la Pila.
+     * M√©todo que recibe como parametro el n√∫mero que se va ingresar a la Pila.
      */
     
     public void push(int num) {
@@ -73,11 +73,11 @@ public class Pila {
 	    pila[tope]=num;
 	}
         else 
-	    System.out.println("No se puede ingresar datos a la Pila, est· llena");
+	    System.out.println("No se puede ingresar datos a la Pila, est√°llena");
     }
     
     /**
-     * MÈtodo que nos quita un elemento de la Pila 
+     * M√©todo que nos quita un elemento de la Pila 
      */
     
     public void pop()
@@ -88,12 +88,12 @@ public class Pila {
 	    pila[tope+1]=0;
 	}
         else
-	    System.out.println("No se puede elimanar datos de la Pila, est· VacÌa");	
+	    System.out.println("No se puede elimanar datos de la Pila, est√° Vac√≠a");	
     }    
 
 
     /**
-     * MÈtodo que muestra los valores que hay en la Pila   
+     * M√©todo que muestra los valores que hay en la Pila   
      */ 
     
     public void MostrarPila()

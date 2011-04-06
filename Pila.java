@@ -13,7 +13,7 @@ public class Pila {
     public Pila(){
         pila = new int[5];
 	max = pila.length-1;
-        System.out.println("Creada Pila por defecto "+pila.length+"posibles elementos");
+        System.out.println("Creada Pila por defecto "+pila.length+" posibles elementos");
     }
     
     /**

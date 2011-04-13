@@ -35,7 +35,7 @@ public class Pila {
     }
 
     /**
-     * Metodo que nos dice si la pila esta vacia
+     * Método que nos dice si la pila esta vacia
      */
     public boolean PilaVacia(){
         if (tope==-1)
@@ -45,7 +45,7 @@ public class Pila {
     }
 
     /**
-     * Metodo que nos dice si la pila esta vacia
+     * Método que nos dice si la pila esta vacia
      */
     public boolean PilaLlena(){
         if (tope==max)
